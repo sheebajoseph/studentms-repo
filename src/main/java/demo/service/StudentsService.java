@@ -31,7 +31,7 @@ public class StudentsService
 	public void saveOrUpdate(Students students
 	)
 	{
-		studentsRepository.save(students)
+		studentsRepository.save(students);
 	}
 
 	public void delete(int id)
